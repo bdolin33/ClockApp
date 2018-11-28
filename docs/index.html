@@ -27,6 +27,8 @@
         width: 100%;
     }
     body.selected #addButton{
+      animation: slideOutLeft .2s;
+      animation-fill-mode: both;
       display:none;
     }
     body.selected #backButton{
@@ -63,8 +65,6 @@
     display:none;
   }
   button.action{
-    animation: slideOutLeft .2s;
-    animation-fill-mode: both;
     color: black;
     box-shadow: none;
     background: none;
